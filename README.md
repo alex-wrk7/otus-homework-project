@@ -19,13 +19,16 @@ https://github.com/nezhar/wordpress-docker-compose
 - Мониторинг Алертинг:
 
 Установлены и запущены с использованием docker-compose из данного репозитория, каталог prometheus_stack в нем же находятся и конфигурационные файлы
- 
+prometheus, grafana, alertmanager, alertmanager-bot
+exporters
+node-exporter, blackbox-exporter
 
 - Логирование:
 
 Установка и запуск выполнен с использованием данного docker-compose 
 https://github.com/flavienbwk/opensearch-docker-compose
 
+opensearch, logstash, filebeat
 
 **Описание хостов:**
 
